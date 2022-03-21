@@ -231,5 +231,5 @@ check_subid_range_CPPFLAGS = \
 check_subid_range_LDADD = \
 	$(top_builddir)/lib/libshadow.la \
 	$(top_builddir)/libmisc/libmisc.la \
-	$(MISCLIBS) -ldl
+	$(MISCLIBS) $(INTLLIBS) -ldl
 endif
